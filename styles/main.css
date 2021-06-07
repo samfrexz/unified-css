@@ -92,6 +92,10 @@ aside,
   flex-basis: 50%;
 }
 
+.gamer-img img {
+  width: 650px;
+}
+
 main h1 {
   font-weight: bolder;
   font-size: 3rem;
