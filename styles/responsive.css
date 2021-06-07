@@ -1,0 +1,168 @@
+@media (max-width: 950px) {
+  nav {
+    width: 100%;
+    justify-content: space-between;
+    background: #808080;
+  }
+  #links {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    height: 70vh;
+    background: #000;
+    opacity: 0.9;
+    color: #00ff00;
+    position: fixed;
+    top: 14vh;
+  }
+  .hide {
+    display: flex;
+  }
+  #apply-btn {
+    display: none;
+  }
+
+  .bars {
+    display: flex;
+  }
+
+  .bars:after {
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-size: 2rem;
+    font-weight: 700;
+    float: right;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .active:after {
+    content: "\f00d";
+  }
+  main,
+  aside,
+  .front-back,
+  section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .text-para,
+  .about-text,
+  .how-text {
+    flex-basis: 90%;
+    margin: 0 auto;
+  }
+  .gamer-img img {
+    display: none;
+  }
+  main h1,
+  .entry-item h2,
+  .about-text h2,
+  .learning-path h1 {
+    font-size: 1.5rem;
+  }
+  main p,
+  .entry-item ul,
+  .about-text p,
+  .about-text h4 {
+    font-size: 1rem;
+  }
+  main h3 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .get-started {
+    min-width: 32%;
+    font-size: 1.2rem;
+  }
+  .timer-cards {
+    margin: 0 auto;
+    gap: 0.5rem;
+  }
+  .opening p {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .opening h1 {
+    color: #000;
+    font-size: 1.5rem;
+  }
+  .about {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .abt-img img,
+  #hid {
+    display: none;
+    width: 200px;
+  }
+  .about-text p {
+    line-height: 0.3in;
+    text-align: justify;
+    /* margin-bottom: 1rem; */
+  }
+  .front-back ul li {
+    font-size: 1rem;
+  }
+  .frontend h2 {
+    font-size: 1.4rem;
+  }
+  .faqs,
+  form {
+    width: 100%;
+  }
+  section .how-text img,
+  .take-course img,
+  .get-invited img,
+  .complete img {
+    max-width: 40px;
+  }
+  .how-text p,
+  .take-course p,
+  .get-invited p,
+  .complete p {
+    padding: 1px;
+    font-size: 1rem;
+  }
+  .how-text button,
+  .complete button {
+    margin-left: 3px;
+  }
+  .how-text h2,
+  .take-course h2,
+  .get-invited h2,
+  .complete h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .footer {
+    flex-direction: column;
+    height: 35vh;
+  }
+  #foot-links {
+    width: 100%;
+  }
+  #foot-links li a {
+    font-size: 0.9rem;
+  }
+  .foot-logo {
+    width: 100%;
+  }
+  .footer span {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+  .copy {
+    min-height: 10vh;
+  }
+  nav img {
+    width: 105px;
+  }
+}

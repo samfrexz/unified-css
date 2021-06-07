@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --pry: #1fcf6e;
+  --main: #1f28cf;
+  --sec: #fff;
+}
+
+body {
+  background: #f9f9f9;
+}
+p,
+a,
+ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Red Hat Display", sans-serif;
+  color: var(--pry);
+}
+/* -----company's logo and navbar links----- */
+nav,
+.footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 14vh;
+  /* background: #000; */
+  /* color: #fff; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo,
+.foot-logo {
+  width: 50%;
+}
+
+#links,
+#foot-links {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+#links li a,
+#foot-links li a {
+  color: var(--pry);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* ---skill up internship programmer and gamer image---- */
+
+main,
+aside,
+.about,
+.front-back {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 1.5rem;
+}
+
+.text-para,
+.about-text,
+.how-text,
+.take-course,
+.get-invited,
+.complete {
+  flex-basis: 50%;
+}
+
+.gamer-img,
+.abt-img,
+.frontend {
+  flex-basis: 50%;
+}
+
+main h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  padding-top: 1rem;
+}
+
+main p,
+.entry-item ul,
+.about-text p {
+  line-height: 0.5in;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+}
+
+main h3 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  color: #000;
+}
+
+.opening {
+  width: 100%;
+  display: flex;
+  height: 24vh;
+  justify-content: center;
+  align-items: center;
+  background: #fffcf6;
+  border: 1px solid #dde3e9;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  text-transform: capitalize;
+}
+
+.opening p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.opening h1 {
+  color: #000;
+  font-size: 2.6rem;
+}
+
+aside {
+  margin: 4rem auto;
+  gap: 4rem;
+}
+
+.entry-box {
+  width: 85%;
+  margin: 0 auto;
+}
+.entry-item {
+  display: flex;
+  flex-basis: 33.33%;
+  min-height: 40vh;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.entry-item h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about {
+  margin: 4rem auto;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-text h4 {
+  color: var(--main);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.learning-path,
+.how-it-works,
+.questions {
+  width: 100%;
+  display: flex;
+  height: 24vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.learning-path p {
+  text-align: center;
+}
+
+.learning-path h1,
+.how-it-works h1,
+.questions h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.front-back {
+  width: 70%;
+  gap: 4rem;
+}
+
+.front-back ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 0.4in;
+}
+.frontend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: #ffffff;
+  box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+  border-bottom: 4px solid var(--main);
+}
+
+.frontend h2 {
+  font-size: 2.2rem;
+  margin: 1.4rem 0;
+  font-weight: bold;
+}
+
+.how-it-works p,
+.questions p {
+  color: var(--main);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.how-it-works {
+  margin: 7rem 0;
+}
+
+section {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.how-text span img,
+.take-course span img,
+.get-invited span img,
+.complete span img {
+  float: left;
+  margin-right: 1rem;
+}
+
+.how-text h2,
+.take-course h2,
+.get-invited h2,
+.complete h2,
+form h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.how-text p,
+.take-course p,
+.get-invited p,
+.complete p {
+  padding-left: 6rem;
+  font-size: 1.5rem;
+  line-height: 0.5in;
+}
+
+.how-text button,
+.complete button {
+  margin-left: 6rem;
+}
+
+.img {
+  float: right;
+}
+
+.top {
+  padding-top: 4rem;
+}
+
+.faqs {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.faqs p {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.item {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s ease-out;
+}
+
+.faqs .item p {
+  line-height: 0.5in;
+}
+.accord {
+  border-top: 1px solid #808080;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.accord:after {
+  content: "\002B";
+  color: #777;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\f00d";
+}
+
+form {
+  width: 40%;
+  margin: 4rem auto;
+}
+
+form p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--main);
+  text-align: center;
+}
+
+form h2 {
+  text-align: center;
+}
+
+input[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 6px;
+  padding: 1rem 0.8rem;
+  /* border: 1px solid #f4f4f4; */
+  outline: none;
+}
+
+input[type="text"],
+[type="email"],
+textarea:hover {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  border-top: 1px solid #d8d8d8;
+  /* margin-bottom: 0.7rem; */
+  width: 100%;
+}
+
+.footer span {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.copy {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: var(--main);
+}
+
+#borde {
+  border-bottom: 1px solid #808080;
+}
