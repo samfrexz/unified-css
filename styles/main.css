@@ -51,7 +51,7 @@ nav,
 }
 
 #links,
-#foot-links {
+footer #foot-links {
   list-style: none;
   display: flex;
   width: 30%;
@@ -59,10 +59,10 @@ nav,
 }
 
 #links li a,
-#foot-links li a {
+footer #foot-links li a {
   color: var(--pry);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 /* ---skill up internship programmer and gamer image---- */
@@ -94,7 +94,7 @@ aside,
 
 main h1 {
   font-weight: bolder;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-transform: capitalize;
   padding-top: 1rem;
 }
