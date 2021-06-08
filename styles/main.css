@@ -192,6 +192,7 @@ aside {
 
 .learning-path p {
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .learning-path h1,
@@ -294,8 +295,9 @@ form h2 {
 }
 
 .faqs p {
-  font-size: 1.4rem;
-  margin: 1rem 0;
+  font-size: 1.3rem;
+  /* margin: 1rem 0; */
+  padding: 1rem 0;
 }
 .item {
   max-height: 0;
@@ -313,7 +315,7 @@ form h2 {
 }
 
 .accord:after {
-  content: "\002B";
+  content: "\f067";
   color: #777;
   font-size: 1.3rem;
   font-weight: bold;
@@ -387,4 +389,7 @@ footer {
 
 #borde {
   border-bottom: 1px solid #808080;
+}
+.gamer-img img {
+  float: right;
 }

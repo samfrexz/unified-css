@@ -16,14 +16,15 @@ nav #apply-btn {
 }
 
 .get-started {
-  width: 33%;
-  padding: 0.7rem 0;
+  width: 30%;
+  padding: 0.9rem 0;
   margin: 2rem 0;
   background: var(--main);
   color: var(--sec);
   box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   font-size: 1.4rem;
+  border: none;
 }
 
 .timer-cards {
