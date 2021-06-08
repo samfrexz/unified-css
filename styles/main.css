@@ -295,7 +295,7 @@ form h2 {
 }
 
 .faqs p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   /* margin: 1rem 0; */
   padding: 1rem 0;
 }
@@ -373,7 +373,7 @@ footer {
 
 .footer span {
   display: flex;
-  width: 20%;
+  width: 10%;
   justify-content: space-around;
 }
 
