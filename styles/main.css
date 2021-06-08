@@ -62,7 +62,7 @@ footer #foot-links {
 footer #foot-links li a {
   color: var(--pry);
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 /* ---skill up internship programmer and gamer image---- */
@@ -108,7 +108,7 @@ main p,
 .about-text p {
   line-height: 0.5in;
   padding-top: 2rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 main h3 {
@@ -233,7 +233,7 @@ aside {
 .how-it-works p,
 .questions p {
   color: var(--main);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -271,7 +271,7 @@ form h2 {
 .get-invited p,
 .complete p {
   padding-left: 6rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 0.5in;
 }
 
@@ -294,7 +294,7 @@ form h2 {
 }
 
 .faqs p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 1rem 0;
 }
 .item {
