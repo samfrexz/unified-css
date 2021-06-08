@@ -25,6 +25,7 @@ nav #apply-btn {
   border-radius: 10px;
   font-size: 1.4rem;
   border: none;
+  cursor: pointer;
 }
 
 .timer-cards {
