@@ -14,8 +14,8 @@ bars.addEventListener('click', showMenu=()=> {
 })
 
 // this is to close the drop--down links when it is clicked
-document.querySelectorAll('#link-item').forEach(function(item) {
-  item.addEventListener("click", function(e) {
+document.querySelectorAll('#link-item').forEach(function(itemLink) {
+  itemLink.addEventListener("click", function(e) {
     links.style.maxHeight = null;
     bars.classList.toggle('active');
     console.log(11)
@@ -25,7 +25,8 @@ document.querySelectorAll('#link-item').forEach(function(item) {
 document.body.addEventListener("click", function(e) {
   if(!e.path.includes(nav)) {
     links.style.maxHeight = null;
-    bars.classList.toggle('active');
+    bars.classList.remove('active')
+    
   }
 });
 
@@ -58,8 +59,6 @@ const time = setInterval(() => {
 
 // accordion functionality
 
-
-
 const questionPara = document.querySelectorAll('.accord')
 
 questionPara.forEach(para => {
@@ -75,5 +74,5 @@ questionPara.forEach(para => {
 })
 
 
-let firstPara = document.querySelector('#open')
-firstPara.style.maxHeight = item.scrollHeight + "px"
+// let firstPara = document.querySelector('#open')
+// firstPara.style.maxHeight = item.scrollHeight + "px"

@@ -2,7 +2,9 @@
   nav {
     width: 100%;
     justify-content: space-between;
-    background: #808080;
+    background: #f4f4f4;
+    box-sizing: 5px 10px 8px #888888;
+    position: fixed;
   }
   #links {
     max-height: 0;
@@ -12,11 +14,12 @@
     justify-content: space-around;
     list-style: none;
     width: 100%;
-    height: 70vh;
+    height: 45vh;
     background: #000;
     opacity: 0.9;
     color: #00ff00;
     position: fixed;
+    padding-left: 0.7rem;
     top: 14vh;
   }
   .hide {
@@ -28,6 +31,7 @@
 
   .bars {
     display: flex;
+    padding-right: 0.4rem;
   }
 
   .bars:after {
@@ -38,7 +42,9 @@
     float: right;
     margin-left: 5px;
     cursor: pointer;
-    color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 0.4rem;
   }
 
   .active:after {
@@ -49,13 +55,22 @@
   .front-back,
   section {
     flex-direction: column;
-    width: 100%;
+    width: 93%;
+    margin: 0 auto;
+  }
+  aside {
+    margin: 1.5rem auto;
   }
   .text-para,
   .about-text,
   .how-text {
     flex-basis: 90%;
     margin: 0 auto;
+    padding: 1rem 0;
+  }
+
+  .text-para {
+    margin-top: 9rem;
   }
   .gamer-img img {
     display: none;
@@ -81,6 +96,7 @@
     font-size: 1.2rem;
   }
   .timer-cards {
+    width: 80%;
     margin: 0 auto;
     gap: 0.5rem;
   }
@@ -93,8 +109,9 @@
     font-size: 1.5rem;
   }
   .about {
-    width: 100%;
+    width: 93%;
     flex-direction: column-reverse;
+    margin: 0 auto;
   }
   .abt-img img,
   #hid {
@@ -114,7 +131,8 @@
   }
   .faqs,
   form {
-    width: 100%;
+    width: 95%;
+    margin: 1rem auto;
   }
   section .how-text img,
   .take-course img,
@@ -140,18 +158,27 @@
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
   }
+
   .footer {
+    width: 90%;
+    margin: 1rem auto;
     flex-direction: column;
-    height: 35vh;
+    height: 25vh;
   }
-  #foot-links {
+  footer #foot-links {
+    display: flex;
+    /* background-color: #000; */
     width: 100%;
+    margin: 0 auto;
   }
   #foot-links li a {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .foot-logo {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    justify-content: space-around;
   }
   .footer span {
     display: flex;
@@ -163,6 +190,9 @@
     min-height: 10vh;
   }
   nav img {
-    width: 105px;
+    padding-left: 0.5rem;
+  }
+  .how-it-works {
+    height: 10vh;
   }
 }
