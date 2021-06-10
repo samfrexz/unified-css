@@ -1,6 +1,6 @@
 const bars = document.querySelector('.bars')
 const links = document.querySelector('#links')
-
+const nav = document.querySelector('nav')
 
 bars.addEventListener('click', showMenu=()=> {
   bars.classList.toggle('active');
@@ -13,8 +13,24 @@ bars.addEventListener('click', showMenu=()=> {
       
 })
 
-// countdown timer
+// this is to close the drop--down links when it is clicked
+document.querySelectorAll('#link-item').forEach(function(item) {
+  item.addEventListener("click", function(e) {
+    links.style.maxHeight = null;
+    bars.classList.toggle('active');
+    console.log(11)
+  })
+})
+// this is to close the drop-down once there's a click outside the drop-down
+document.body.addEventListener("click", function(e) {
+  if(!e.path.includes(nav)) {
+    links.style.maxHeight = null;
+    bars.classList.toggle('active');
+  }
+});
 
+
+// countdown timer
 const countDown = new Date('june 25, 2021 00:00:00').getTime();
 
 const time = setInterval(() => {

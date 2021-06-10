@@ -50,6 +50,10 @@ nav,
   width: 50%;
 }
 
+/* .menu {
+  display: flex;
+} */
+
 #links,
 footer #foot-links {
   list-style: none;
@@ -58,10 +62,17 @@ footer #foot-links {
   justify-content: space-between;
 }
 
+/* nav ul {
+  width: 25%;
+  display: flex;
+  list-style: none;
+} */
+
 #links li a,
 footer #foot-links li a {
   color: var(--pry);
   text-decoration: none;
+
   font-size: 1.3rem;
 }
 
@@ -317,7 +328,7 @@ form h2 {
 .accord:after {
   content: "\f067";
   color: #777;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: "Font Awesome 5 Free";
   float: right;
@@ -392,4 +403,11 @@ footer {
 }
 .gamer-img img {
   float: right;
+}
+
+footer #foot-links {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
 }
