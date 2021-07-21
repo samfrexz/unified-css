@@ -1,0 +1,375 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+    rel="stylesheet">
+<title>Sign-up</title>
+
+<style type="text/css" rel="stylesheet" media="all">
+    /* Base ------------------------------ */
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+
+    body {
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        /* background-color: #000; */
+        -webkit-text-size-adjust: none;
+        font-family: 'Muli', sans-serif;
+        background-color: #F9FAFC;
+    }
+
+    p,
+    ul,
+    ol,
+    blockquote {
+        text-align: left;
+    }
+
+    a img {
+        border: none;
+    }
+
+    td {
+        word-break: break-word;
+    }
+
+
+    html,
+    body,
+    div,
+    span,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    em,
+    img,
+    strong,
+    i,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    nav,
+    section,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    nav,
+    section,
+    table,
+    tbody {
+        display: block;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0 1em;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .email-wrapper {
+        max-width: 500px;
+        margin: 10px auto;
+        padding: 30px 0;
+        /* background: #000; */
+        
+    }
+
+    .email-wrapper__body {
+        margin: 0 auto;
+        max-width: 900px;
+        min-height: 300px;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .email-content {
+        margin: 0 auto;
+    }
+
+    .greetings {
+        color: #575A65;
+        font-size: 14px;
+        line-height: 39px;
+    }
+
+    .table-data {
+        padding-bottom: 20px;
+        color: #60626b;
+        font-size: 14px;
+        line-height: 27px;
+        display: block;
+    }
+    .header {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .header img {
+        width: 100px;
+    }
+
+    .text {
+        font-size: 12px;
+        line-height: 20px;
+        color: #575A65;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+
+    .footer {
+        padding-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .social-handle-row td {
+        margin: 10px 4px;
+        display: inline-table;
+    }
+    .block{
+        display: block;
+    }
+    .inline-block {
+        display: inline-block;
+    }
+    .float-right {
+        float:right;
+    }
+   
+    .float-left{
+        float: left;
+    }
+    
+    .link-btn {
+        background: #FFCE00;;
+        border-radius: 50px;
+        color: #000;
+        padding: 10px 10px;
+        display: block;
+        max-width: 180px;
+        margin: 10px auto;
+        text-align: center;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .transaction-summary {
+        padding:20px;
+        max-width: 370px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 30px;
+        background: #fff;
+    }
+    .email-input {
+      max-width: 370px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .email-input input[type=email] {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #C0CCDA;
+      outline: none;
+      padding: 10px 10px;
+      margin: 10px 0 0 0;
+    }
+  
+   
+</style>
+</head>
+
+<body style="background-image: url('https://res.cloudinary.com/patriciaengineering/image/upload/v1626858447/sign-bg2_i1d9vb.png');background-position: bottom right;background-repeat:no-repeat;background-size: 15%;">
+<table class="email-wrapper" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="email-wrapper__body">
+        <tr  class="block" align="center">
+            <td class="block" align="top" style="text-align: center;">
+                <table>
+                    <tbody align="left">
+                        <th class="header block text-center">
+                            <img src="https://res.cloudinary.com/patriciaengineering/image/upload/v1625985684/Group_rswgnu.png"/>
+                        </th>
+                    </tbody>
+                </table>
+                <table  >
+                    <tbody style="padding:20px 0;border: 1px solid #E5E9F2;border-radius:15px;background-color: #151722;background-size:25%;background-position: top right;background-repeat:no-repeat;background-image: url('https://res.cloudinary.com/patriciaengineering/image/upload/v1626855431/sign-up_s6foke.png');">
+                        <tr class="block" border="0" cellspacing="0" cellpadding="0">
+                            <td class="table-data">
+                                <h2
+                                    style="text-align:center;font-weight:800;font-size: 24px;line-height: 35px;color:#ffffff;">
+                                    Claim your refund<br>
+                                    in one click.
+                                    
+                                </h2>
+                            </td>
+                           
+                        </tr>
+                
+                    </tbody>
+                    
+                    <tbody class="transaction-summary">
+                        <tr class="block" border="0" cellspacing="0" cellpadding="0" >
+                            <td class="table-data">
+                               
+                                <table style="width:100%;clear: both;padding-bottom: 20px;">
+
+                                  <tbody>
+                                    <tr class="block" align="center">
+                                        <td style="text-align: center;padding: 0 0 20px 0;">
+                                          <strong>Transaction Information</strong>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                    <tr style="clear: both;padding-bottom:80px" class="block">
+                                        <td class="float-left" style="text-align:left;"> 
+                                            <span style="opacity: 0.5;">Transaction Date: </span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>01/04/2021</strong></span>
+                                        </td>
+                                        <td class="float-right" style="text-align:right;">
+                                            <span style="opacity: 0.5;">Merchant name:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>Moffy D</strong></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="clear: both;padding-bottom:80px" class="block">
+                                        <td class="float-left" style="text-align:left;"> 
+                                            <span style="opacity: 0.5;">Amount paid:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>NGN 100,000</strong></span>
+                                        </td>
+                                        <td class="float-right" style="text-align:right;">
+                                            <span style="opacity: 0.5;">Transaction amount:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>NGN100,000(BTC)</strong></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="clear: both;padding-bottom:20px" class="block">
+                                      <td class="float-left" style="text-align:left;"> 
+                                          <span style="opacity: 0.5;">Payment method:</span>
+                                          <br>
+                                          <span style="color:#006156;"><strong>Card</strong></span>
+                                      </td>
+                                      <td class="float-right" style="text-align:right;">
+                                          <span style="opacity: 0.5;">status</span>
+                                          <br>
+                                          <span style="color:#006156;"><strong>Successful</strong></span>
+                                      </td>
+                                  </tr>
+  
+                                </table>
+                            </td>
+                            
+                        </tr>
+                        
+                    </tbody>
+
+                    <table class="email-input">
+                      <tr class="block" border="0" cellspacing="0" cellpadding="0">
+                        <td class="table-data" align="left">
+                          <label for="email" >Receiving address</label>
+                          <input type="email" id="email" placeholder="Enter receiving address">
+                        </td>
+                      </tr>
+                    </table>
+                </table>
+
+               
+
+                 <!-- START FOOTER -->
+                 <table align="center" class="footer">
+
+                  <tr class="block" align="center" style="padding-top: 0;">
+                    <td class="table-data" style="text-align: center;">
+                      
+                        <a href="#" class="link-btn">
+                            Proceed refund
+                        </a>
+                    </td>
+                </tr>
+                  
+                </table>
+                <!-- END FOOTER -->
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</body>
+
+</html>

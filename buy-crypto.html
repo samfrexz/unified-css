@@ -1,0 +1,386 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
+    rel="stylesheet">
+<title>Buy-Crypto</title>
+
+<style type="text/css" rel="stylesheet" media="all">
+    /* Base ------------------------------ */
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;
+        /* Firefox, other Gecko */
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+
+    body {
+        width: 100% !important;
+        height: 100%;
+        margin: 0;
+        /* background-color: #000; */
+        -webkit-text-size-adjust: none;
+        font-family: 'Muli', sans-serif;
+      
+    }
+
+    p,
+    ul,
+    ol,
+    blockquote {
+        text-align: left;
+    }
+
+    a img {
+        border: none;
+    }
+
+    td {
+        word-break: break-word;
+    }
+
+
+    html,
+    body,
+    div,
+    span,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    em,
+    img,
+    strong,
+    i,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    nav,
+    section,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    nav,
+    section,
+    table,
+    tbody {
+        display: block;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0 1em;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .email-wrapper {
+        max-width: 500px;
+        margin: 10px auto;
+        padding: 30px 0;
+        /* background: #000; */
+        
+    }
+
+    .email-wrapper__body {
+        background: #fff;
+        margin: 0 auto;
+        max-width: 700px;
+        min-height: 300px;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .email-content {
+        margin: 0 auto;
+    }
+
+    .greetings {
+        color: #575A65;
+        font-size: 14px;
+        line-height: 39px;
+    }
+
+    .table-data {
+        padding-bottom: 20px;
+        color: #60626b;
+        font-size: 14px;
+        line-height: 27px;
+        display: block;
+    }
+    .header {
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .header img {
+        width: 100px;
+    }
+
+    .text {
+        font-size: 12px;
+        line-height: 20px;
+        color: #575A65;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+
+    .footer {
+        padding-bottom: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .social-handle-row td {
+        margin: 10px 4px;
+        display: inline-table;
+    }
+    .block{
+        display: block;
+    }
+    .inline-block {
+        display: inline-block;
+    }
+    .float-right {
+        float:right;
+    }
+    .float-left{
+        float: left;
+    }
+    .link-button {
+        background: #FFCE00;;
+        border-radius: 50px;
+        color: #000;
+        padding: 10px 20px;
+        display: block;
+        max-width: 250px;
+        margin: 10px auto;
+        text-align: center;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .transaction-summary {
+        border: 1px solid #E5E9F2;
+        border-top:4px solid #2A282D;
+        background-size:30%;
+        background-position: bottom right;
+        background-repeat:no-repeat;
+        margin-bottom:5px;
+        padding:20px;
+        max-width: 450px;
+        margin: auto;
+        border-radius:8px 8px 0 0;
+        margin-top: -20px;
+        background: #fff;
+    }
+   
+</style>
+</head>
+
+<body>
+<table class="email-wrapper" cellspacing="0" cellpadding="0" border="0">
+    <tbody class="email-wrapper__body">
+        <tr  class="block" align="center">
+            <td class="block" align="top" style="text-align: center;">
+                <table>
+                    <tbody align="center">
+                        <th class="header block text-center">
+                            <img src="https://res.cloudinary.com/patriciaengineering/image/upload/v1625985684/Group_rswgnu.png"/>
+                        </th>
+                    </tbody>
+                </table>
+                <table bgcolor="#FFF" >
+                    <tbody style="background-size:30%;background-position: bottom right;background-repeat:no-repeat;margin-bottom:5px;padding:20px 0;border: 1px solid #E5E9F2;border-radius:8px;background-image: url(https://res.cloudinary.com/patriciaengineering/image/upload/v1625994115/pattern_kfvx82.png);">
+                        <tr class="block" border="0" cellspacing="0" cellpadding="0" >
+                            <td class="table-data">
+                                <h2
+                                    style="text-align:center;font-weight:800;font-size: 24px;line-height: 42px;color:#006156;">
+                                    You just topped up <br>
+                                    on some BTC.
+                                    
+                                </h2>
+                            </td>
+                            
+                            <td class="table-data" align="center">
+                                <img src="https://res.cloudinary.com/patriciaengineering/image/upload/v1626854449/crypto_xketpo.png" alt="bitcoins">
+                                
+                            </td>
+                            <td class="table-data text" style="color:#000">
+                                A withdrawal transaction of <span style="color:#006156;font-weight: bold;">NGN 100, 000.00</span>
+                                <br >
+                                has just occurred on your Patricia Account.
+                                
+                                <br ></br>
+                                <span style="color: #9DA8B6;">The details of are below:</span>
+
+                            </td>
+                        </tr>
+                
+                    </tbody>
+                    <tbody >
+                        <tr class="block" style="margin-top:-10px;background: #ccc;padding:20px;width:100%; border-radius: 20px;">
+                        </tr>
+                    </tbody>
+                    <tbody class="transaction-summary" style="background-size:90%;background-position: top right;background-repeat:no-repeat;background-image: url('https://res.cloudinary.com/patriciaengineering/image/upload/v1626855564/ellipses_etc3t0.png');">
+                        <tr class="block" border="0" cellspacing="0" cellpadding="0" >
+                            <td class="table-data">
+                               
+                                <table style="width:100%;clear: both;padding-bottom: 20px;">
+                                    <tr style="clear: both;padding-bottom:80px" class="block">
+                                        <td class="float-left" style="text-align:left;"> 
+                                            <span style="opacity: 0.5;">Transaction Date: </span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>01/04/2021</strong></span>
+                                        </td>
+                                        <td class="float-right" style="text-align:right;">
+                                            <span style="opacity: 0.5;">Cryptocurrency bought:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>Bitcoin(BTC)</strong></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="clear: both;padding-bottom:80px" class="block">
+                                        <td class="float-left" style="text-align:left;"> 
+                                            <span style="opacity: 0.5;">Amount:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>0.00012 BTC </strong></span>
+                                        </td>
+                                        <td class="float-right" style="text-align:right;">
+                                            <span style="opacity: 0.5;">Reference</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>Faaji lo</strong></span>
+                                        </td>
+                                    </tr>
+                                    <tr style="clear: both;padding-bottom:80px" class="block">
+                                      <td class="float-left" style="text-align:left;"> 
+                                          <span style="opacity: 0.5;">Debit wallet:</span>
+                                          <br>
+                                          <span style="color:#006156;"><strong>FIAT Wallet</strong></span>
+                                      </td>
+                                      <td class="float-right" style="text-align:right;">
+                                          <span style="opacity: 0.5;">Debit amount:</span>
+                                          <br>
+                                          <span style="color:#006156;"><strong>NGN 1000, 000</strong></span>
+                                      </td>
+                                  </tr>
+                                    <tr style="clear: both;padding-bottom:60px" class="block">
+                                        <td class="float-left" style="text-align:left;"> 
+                                            <span style="opacity: 0.5;">Status:</span>
+                                            <br>
+                                            <span style="color:#006156;"><strong>Successful </strong></span>
+                                        </td>
+                                        <td class="float-right" style="text-align:right;padding:20px 0">
+                                            <a href="#"><span style="background:#006156;padding:5px;color:#fff;border-radius: 6px;">Download Reciept</span></a>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                            </td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                 <!-- START FOOTER -->
+                 <table align="center" class="footer">
+                    <tr class="block" style="padding:10px;">
+                        <td class="table-data text" style="padding:35px;border-bottom: 1px solid #E5E9F2;color: #9DA8B6;text-align:center;">
+                            If you have not made this request, please contact us
+                            <br>immediately at <a href="info@patricia.com.ng " style="color:#006156">info@patricia.com.ng</a>
+                        </td>
+                      
+                    </tr>
+                    <tr class="block">
+                        <td align="center" class="block">
+                            <p style="text-align:center;padding-top:15px;font-size:16px;color: #101010;">Connect with us</p>
+                        </td>
+                    </tr>
+                    <tr class="social-handle-row block">
+                        <td>
+                            <a href=""> <img width="20px" height="100%"
+                                    src="https://res.cloudinary.com/patriciaengineering/image/upload/v1625987530/twitter_puqvup.png"></a>
+                        </td>
+                        <td>
+                            <a href=""><img width="20px" height="100%"
+                                    src="https://res.cloudinary.com/patriciaengineering/image/upload/v1625987539/ig_o2ukdj.png"></a>
+                        </td>
+                        <td>
+                            <a href=""><img width="20px" height="100%"
+                                    src="https://res.cloudinary.com/patriciaengineering/image/upload/v1625987552/fb_khgvdn.png"></a>
+                        </td>
+                    </tr>
+                </table>
+                <!-- END FOOTER -->
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</body>
+
+</html>
